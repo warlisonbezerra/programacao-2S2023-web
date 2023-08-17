@@ -1,2 +1,17 @@
-# programacao-2S2023-web
-repositório criado para as atividades da faculdade, na disciplina de extensão de programação web
+
+## Extensão - programação para web
+
+repositório de estudo sobre front-end.
+
+
+
+## Autores
+
+- [@warlisonbezerra](https://github.com/warlisonbezerra)
+
+
+
+
+## 🛠 Habilidades
+Javascript, HTML, CSS
+
