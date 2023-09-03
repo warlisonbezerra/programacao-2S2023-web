@@ -1,0 +1,12 @@
+{
+    "name": "atividade4",
+    "version": "1.0.0",
+    "description": "Atividade 4 - Aplicação web com rotas de operações matemáticas",
+    "dependencies": {
+      "express": "^4.17.1"
+    },
+    "scripts": {
+      "start": "node index.js"
+    }
+  }
+  
