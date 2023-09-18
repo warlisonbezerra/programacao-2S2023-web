@@ -1,12 +1,14 @@
 {
-    "name": "atividade4",
-    "version": "1.0.0",
-    "description": "Atividade 4 - Aplicação web com rotas de operações matemáticas",
-    "dependencies": {
-      "express": "^4.17.1"
-    },
-    "scripts": {
-      "start": "node index.js"
-    }
+  "name": "app_web1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
   }
-  
+}

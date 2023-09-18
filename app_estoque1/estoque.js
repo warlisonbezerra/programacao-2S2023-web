@@ -29,11 +29,13 @@ function editar_produto(id, qtdAtual) {
 }
 
 function remover_produto(id) {
-    produtos = produtos.filter((p) => {
-        return p.id != id
-    })
-    return {};
-}
+    const index = produtos.findIndex((produto) => produto.id === id);
+    if (index !== -1) {
+      produtos.splice(index, 1);
+      return true; 
+    }
+    return false; 
+  }
 
 module.exports = {
     criar_produto,

@@ -1,7 +1,14 @@
 module.exports = {
-    somar: (a, b) => a + b,
-    subtrair: (a, b) => a - b,
-    multiplicar: (a, b) => a * b,
-    dividir: (a, b) => (b !== 0 ? a / b : 'Divisão por zero não é permitida'),
-  };
-  
+  somar: function(a, b){
+      return Number.parseInt(a) + Number.parseInt(b);
+  },
+  subtrair: function(a, b){
+      return a - b;
+  },
+  multiplicar: function(a, b){
+      return a * b;
+  },
+  dividir: function(a, b){
+      return a / b;
+  },
+}
